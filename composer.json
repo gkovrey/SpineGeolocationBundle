@@ -1,0 +1,37 @@
+{
+    "name": "spine/spine-geolocation-bundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle provides parts of Google Geolocation API services via backend for Symfony2 applications",
+    "keywords": ["google", "geolocation", "api"],
+    "homepage": "https://github.com/gkovrey/SpineGeolocationBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Kovrey",
+            "email": "g,kovrey@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gkovrey/SpineGeolocationBundle/issues"
+    },
+    "require": {
+        "php": ">=7.0",
+        "symfony/framework-bundle": "~2.3|~3.0",
+        "symfony/dependency-injection": "~2.3|~3.0",
+        "symfony/routing": "~2.3|~3.0",
+    },
+    "suggest": {
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": { "Spine\\GeolocationBundle": "" }
+    },
+    "target-dir": "Spine/GeolocationBundle",
+    "prefer-stable": true
+}
